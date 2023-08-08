@@ -8,7 +8,7 @@
           {{ daily.number }}
         </span>
         <span
-          class="flex-grow py-2 px-3 bg-theme-yellow rounded-full text-white text-base font-bold uppercase tracking-tight leading-none"
+          class="flex-grow py-2 px-3 bg-theme-yellow rounded-full text-white text-base font-bold uppercase tracking-tight leading-none whitespace-nowrap"
         >
           {{ daily.title }}
         </span>
@@ -19,14 +19,14 @@
       >
         Format
       </h3>
-      <p>{{ daily.format }}</p>
+      <p class="whitespace-pre-wrap">{{ daily.format }}</p>
 
       <h3
         class="font-title font-bold uppercase after:block after:mt-1 after:w-12 after:h-2 after:bg-theme-yellow after:rounded-full"
       >
         Intention
       </h3>
-      <p>{{ daily.intention }}</p>
+      <p class="whitespace-pre-wrap">{{ daily.intention }}</p>
     </template>
 
     <div v-else class="flex flex-col items-center gap-y-5 font-title font-bold uppercase text-center">

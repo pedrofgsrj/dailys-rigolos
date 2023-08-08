@@ -4,7 +4,7 @@
     "title": "Pour quoi ?",
     "format": "Pour chaque sujet présenté par les participants, chacun doit ajouter \"pour quoi je fais ça ?\"",
     "intention": "Redonner du sens et de la valeur en démontrant l'intérêt et la plus-value de ce qui est fait.",
-    "debrief": "Pour quoi ce format de Daily Rigolo peut-il aider l'équipe ? <br /> Répondez en commençant par \"parce que\" pour orienter vers la cause."
+    "debrief": "Pour quoi ce format de Daily Rigolo peut-il aider l'équipe ? \n Répondez en commençant par \"parce que\" pour orienter vers la cause."
   },
   {
     "number": "2",
@@ -25,34 +25,83 @@
     "title": "Reformulation",
     "format": "Tour à tour, les participants font leur daily classique et doivent reformuler ce qu'a dit l'équipier précédent.",
     "intention": "Maintenir un niveau d'attention élevé et s'assurer que les éléments ont été compris.",
-    "debrief": "Est-il évident de reformuler ce qui a été dit ? <br /> Qu'avez-vous appris en le faisant ?"
+    "debrief": "Est-il évident de reformuler ce qui a été dit ? \n Qu'avez-vous appris en le faisant ?"
   },
   {
     "number": "5",
     "title": "Tu vas faire quoi ?",
     "format": "Le premier participant désigne un autre équipier et parle en son nom : selon la personne 1 qu'a fait la personne 2 hier et que va-t-elle faire aujourd'hui ?",
     "intention": "Partager la perception du travail de chacun et faire le focus sur la co-responsabilité de l'équipe.",
-    "debrief": "Qu'avez-vous découvert sur le travail des autres ? <br /> Qu'avez-vous constaté à propos de la perception qu'ont les autres sur votre travail ?"
+    "debrief": "Qu'avez-vous découvert sur le travail des autres ? \n Qu'avez-vous constaté à propos de la perception qu'ont les autres sur votre travail ?"
   },
   {
     "number": "6",
     "title": "Tirer à droite",
     "format": "Dans l'outil de visualisation des tickets, les tâches sont parcourues une à une afin de déterminer ce qui est manquant pour passer au statut suivant : de \"en cours\" à \"terminé\" par exemple.",
     "intention": "Se concentrer sur ce qui pourra être terminé aujourd'hui.",
-    "debrief": "Qu'est-ce que ce format de Daily Rigolo apporte de plus ? <br /> Pourrait-il être utilisé régulièrement ?"
+    "debrief": "Qu'est-ce que ce format de Daily Rigolo apporte de plus ? \n Pourrait-il être utilisé régulièrement ?"
   },
   {
     "number": "7",
     "title": "Objectif",
     "format": "Chaque participant fait son daily de manière classique en faisant un lien direct entre son travail et l'objectif de sprint.",
     "intention": "Remettre le focus sur l'objectif de sprint.",
-    "debrief": "Vous rappeliez-vous de l'objectif de sprint avant qu'il ne soit rappelé avec ce format de Daily Rigolo ? <br /> Quel est l'impact de le rappeler ?"
+    "debrief": "Vous rappeliez-vous de l'objectif de sprint avant qu'il ne soit rappelé avec ce format de Daily Rigolo ? \n Quel est l'impact de le rappeler ?"
   },
   {
     "number": "8",
     "title": "Finger pointing",
     "format": "Chaque participant parle de toutes les tâches qui lui sont assignées (astuce : dans votre outil de visualisation des tickets, filtrer par personne).",
     "intention": "Faire le point sur toutes les tâches en cours et se rappeler qu'on ne laisse pas bébé dans un coin.",
-    "debrief": "Quel pourrait être le risque de ce format de Daily Rigolo ? <br /> Qu'est-ce que ce format de Daily Rigolo a mis en lumière aujourd'hui ?"
+    "debrief": "Quel pourrait être le risque de ce format de Daily Rigolo ? \n Qu'est-ce que ce format de Daily Rigolo a mis en lumière aujourd'hui ?"
+  },
+  {
+    "number": "9",
+    "title": "Besoin de toi",
+    "format": "Chaque participant fait son daily de manière classique en insistant sur ses besoins pour finaliser le travail en cours.",
+    "intention": "Créer de l'entraide dans l'équipe et des opportunités de débloquer des sujets.",
+    "debrief": "Quelle situation aurait pu ne pas être débloquée sans ce format de Daily Rigolo centré sur les besoins ?"
+  },
+  {
+    "number": "10",
+    "title": "Time's up",
+    "format": "Les participants prennent 3 minutes pour choisir 3 mots : un mot pour raconter la journée d'hier, un mot pour la journée à venir et un mot pour les difficultés potentielles.",
+    "intention": "Entraîner les participants à être (très) concis et à se focaliser sur l'essentiel.",
+    "debrief": "Quels seraient les impacts de faire ce format de Daily Rigolo tous les jours ? \n Quel pourrait être le juste milieu ?"
+  },
+  {
+    "number": "11",
+    "title": "Impact",
+    "format": "Les participants doivent expliciter en quoi ce qu'ils disent aide ou fait avancer l'équipe. \n \"Je vous dis ça parce que...\"",
+    "intention": "Créer de la co-responsabilité entre les participants, sortir des potentiels silos individuels et remettre le focus sur la synchronisation.",
+    "debrief": "En général, toutes les informations ont-elles un impact ? \n Sans ce format de Daily Rigolo, quelles autres informations auriez-vous partagées ?"
+  },
+  {
+    "number": "12",
+    "title": "Daily chat",
+    "format": "Chaque participant a 5 minutes pour communiquer son daily via le chat. \n Les 5 minutes suivantes sont consacrées à la lecture individuelle du daily des autres et enfin l'équipe a 5 minutes pour compléter ou répondre aux questions via le chat.",
+    "intention": "Observer et inspecter comment la communication écrite sert ou non la synchronisation.",
+    "debrief": "Qu'est-ce qui aurait pu être compris plus facilement à l'oral qu'à l'écrit ? \n Qu'est-ce qui pourrait être uniquement transmis à l'écrit ?"
+  },
+  {
+    "number": "13",
+    "title": "Daily mr",
+    "format": "Plutôt que d'utiliser l'outil de visualisation des tickets, afficher la liste des merge requests ouvertes et les parcourir afin de déterminer ce qui leur manque pour être terminées techniquement.",
+    "intention": "Mettre les mains dans le cambouis pour débloquer les situations d'un point de vue technique plutôt que fonctionnel.",
+    "debrief": "Comment ces échanges vont-ils impacter votre journée ?"
+  },
+  {
+    "number": "14",
+    "title": "Quoi de neuf ?",
+    "format": "Avant le daily classique et sous forme de tour de table, chaque participant partage aux autres comment il va en ce moment, le dernier film qu'il a vu, la chanson qu'il a écoutée en arrivant au boulot, etc.",
+    "intention": "Créer du lien et de l'empathie entre les participants.",
+    "debrief": "Qu'est-ce que cela a apporté de partager quelque chose de plus personnel ? \n Est-ce que cela a provoqué de la déconcentration ?"
+  },
+  {
+    "number": "15",
+    "title": "Confiance",
+    "format": "Avant de démarrer, les participants évaluent à main levée sur une échelle de 1 à 5 leur niveau de confiance pour atteindre l'objectif de sprint. À la fin du daily, refaire un vote et comparer.",
+    "intention": "Inspecter la confiance des participants dans l'atteinte de l'objectif.",
+    "debrief": "Qu'est-ce qui fait que la note du deuxième vote est différente (ou non) de la note du premier vote ? \n Le premier vote vous a-t-il permis d'adapter le plan ?"
   }
 ]
