@@ -8,9 +8,9 @@ export default {
     },
     extend: {
       colors: {
-        "theme-yellow": "#F3C615",
-        "theme-pink": "#E95B9A",
-        "theme-gray": "#5A5A5A",
+        "theme-yellow": "rgb(var(--color-theme-yellow) / <alpha-value>)",
+        "theme-pink": "rgb(var(--color-theme-pink) / <alpha-value>)",
+        "theme-gray": "rgb(var(--color-theme-gray) / <alpha-value>)",
       },
     },
   },

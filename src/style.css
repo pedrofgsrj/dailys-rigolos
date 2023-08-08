@@ -3,6 +3,12 @@
 @tailwind base;
 
 @layer base {
+  :root {
+    --color-theme-yellow: 243 198 21;
+    --color-theme-pink: 233 91 154;
+    --color-theme-gray: 90 90 90;
+  }
+
   html {
     @apply text-theme-gray;
   }
