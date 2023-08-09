@@ -1,6 +1,6 @@
 <template>
   <main class="p-8 space-y-10">
-    <h1 class="text-3xl text-center font-title">Tous les dailys</h1>
+    <h1 class="text-3xl text-center font-title text-white">Tous les dailys</h1>
     <ul class="space-y-20">
       <li v-for="daily in dailys" :key="daily.number" class="grid grid-cols-[repeat(2,auto)] gap-10 justify-center">
         <DailyCard :daily="daily" face-up :mode="DailyCardMode.FORMAT_INTENTION" class="w-60 aspect-[16/23]" />

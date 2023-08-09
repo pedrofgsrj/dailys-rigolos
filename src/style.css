@@ -9,8 +9,18 @@
     --color-theme-gray: 90 90 90;
   }
 
-  html {
-    @apply text-theme-gray;
+  html,
+  body {
+    @apply h-full;
+  }
+
+  #app {
+    @apply h-full;
+    @apply relative;
+    @apply z-0;
+    @apply bg-no-repeat;
+    background-image: url(@/assets/wave-bg.svg);
+    background-size: auto 75vh;
   }
 }
 

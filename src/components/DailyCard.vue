@@ -1,7 +1,7 @@
 <template>
   <div
     :style="{ '--card-color': modeColorMap[mode] }"
-    class="p-3 m-2 space-y-3 rounded-md relative bg-white text-xs tracking-wide before:bg-[var(--card-color)] before:rounded-[14px] before:-inset-2 before:absolute before:-z-10"
+    class="p-3 m-2 space-y-3 rounded-md relative bg-white text-xs text-theme-gray tracking-wide before:bg-[var(--card-color)] before:rounded-[14px] before:-inset-2 before:absolute before:-z-10 before:shadow-lg"
   >
     <template v-if="faceUp">
       <h2 class="flex items-center gap-3 font-title">

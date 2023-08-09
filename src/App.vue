@@ -3,7 +3,7 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <header class="flex items-center justify-between py-4 px-8">
+  <header class="flex items-center justify-between py-4 px-8 text-white">
     <router-link :to="{ name: 'home' }" class="font-title hover:underline">Home</router-link>
     <nav>
       <ul class="flex gap-10 font-title">
