@@ -1,4 +1,11 @@
 <template>
+  <nav class="font-title hover:underline">
+    <ul>
+      <li>
+        <router-link :to="{ name: 'dailyList' }">Tous les dailys</router-link>
+      </li>
+    </ul>
+  </nav>
   <main class="p-8 space-y-10">
     <button v-if="!selectedCard" type="button" @click="pickCard">Piocher une carte</button>
     <template v-else>
