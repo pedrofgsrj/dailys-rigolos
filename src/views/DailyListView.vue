@@ -1,11 +1,4 @@
 <template>
-  <nav class="font-title hover:underline">
-    <ul>
-      <li>
-        <router-link :to="{ name: 'home' }">Home</router-link>
-      </li>
-    </ul>
-  </nav>
   <main class="p-8 space-y-10">
     <h1 class="text-3xl text-center font-title">Tous les dailys</h1>
     <ul class="space-y-20">
