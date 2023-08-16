@@ -1,6 +1,18 @@
 <template>
-  <main class="p-8 space-y-10">
-    <button v-if="!selectedCard" type="button" @click="pickCard">Piocher une carte</button>
+  <main class="p-8">
+    <template v-if="!selectedCard">
+      <button
+        type="button"
+        @click="pickCard"
+        class="block mx-auto mb-8 py-2 px-6 border-2 border-solid rounded-lg text-white font-title"
+      >
+        Piocher une carte
+      </button>
+      <div class="flex items-center justify-center">
+        <DailyCard class="w-56 aspect-[16/23] -rotate-[20deg] origin-right z-10" />
+        <DailyCard :mode="DailyCardMode.DEBRIEF" class="w-56 aspect-[16/23] rotate-[20deg] origin-left" />
+      </div>
+    </template>
     <template v-else>
       <div class="grid grid-cols-2 items-center justify-items-center gap-4">
         <DailyCard :daily="selectedCard" :face-up="!!selectedCard" class="w-60 aspect-[16/23]" />
