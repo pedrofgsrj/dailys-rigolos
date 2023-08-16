@@ -1,10 +1,16 @@
 <template>
   <main class="p-8">
-    <div class="grid grid-cols-2 items-center justify-items-center gap-4">
+    <div class="grid grid-cols-[auto_auto] items-center justify-center gap-20">
       <DailyCard :daily="selectedCard" :face-up="!!selectedCard" class="w-60 aspect-[16/23]" />
 
-      <button v-if="!showDebrief" type="button" @click="showDebrief = true">Afficher le debrief</button>
-      <DailyCard v-else :daily="selectedCard" face-up :mode="DailyCardMode.DEBRIEF" class="w-60 aspect-[16/23]" />
+      <DailyCard
+        :daily="selectedCard"
+        :face-up="showDebrief"
+        :mode="DailyCardMode.DEBRIEF"
+        class="w-60 aspect-[16/23]"
+        :class="{ 'cursor-pointer': !showDebrief }"
+        @click="showDebrief = true"
+      />
     </div>
   </main>
 </template>
